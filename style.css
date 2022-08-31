@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+
+* {
+  font-family: "Nunito Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  font-size: 20px;
+  padding: 50px;
+  text-align: center;
+}
+
+:root {
+  --primary-color: #3248da;
+  --secondary-color: #00caf2;
+  --green: #47cc49;
+}
+
+.app-container {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #ffffff;
+  border-radius: 1.5rem 1.5rem 2.4rem 2.4rem;
+  box-shadow: 0 3px 14px rgb(0 0 0 / 10%);
+  padding: 1rem;
+}
+
+.app-header {
+  min-height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 1.5rem 1.5rem 2.4rem 2.4rem;
+  background-color: var(--primary-color);
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: white;
+}
+
+.product-list-container {
+  font-size: 1.6rem;
+  font-weight: 700;
+  border-radius: 2.4rem;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+#totalKcalId {
+  font-size: 1.6rem;
+  font-weight: 700;
+  border-radius: 1.5rem 1.5rem 2.4rem 2.4rem;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+h1 {
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+#product-list {
+  background-color: rgb(255, 220, 105);
+  border: 5px solid #444;
+  width: 400px;
+  padding: 25px;
+  margin-top: 30px;
+}
+
+input {
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 400;
+  width: 12.5rem;
+  height: 2rem;
+}
+
+.btn {
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
+  background-color: var(--primary-color);
+  width: 12.5rem;
+  height: 2rem;
+  border-radius: 10px;
+  border-color: var(--primary-color);
+}
+
+.search,
+.additem {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.additem {
+  display: none;
+}
+
+.search-container {
+  align-items: center;
+  align-content: space-between;
+}
+
+.searchResults {
+  background: white;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border-radius: 2rem;
+  width: 100%;
+  margin-bottom: 50px;
+  padding: 3rem;
+  box-shadow: 1px 1px 5px 5px #d7daea;
+}
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+
+.result-Item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.div-item {
+  width: 140px;
+  align-items: center;
+  justify-content: center;
+}
+.div-item-name {
+  text-align: left;
+  width: 140px;
+}
+.div-totalKcal {
+  padding-top: 50px;
+}
+
+.newItem {
+  color: var(--primary-color);
+}
+
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.result {
+  font-size: 1.6rem;
+  font-weight: 700;
+  /* background-color: var(--primary-color); */
+  color: var(--primary-color);
+}
+/* .bold {
+  font-weight: 700;
+}
+.mb-2 {
+  margin-bottom: 2rem;
+} */
+
+#resultId {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="style.css" rel="stylesheet" />
+
+    <title>Calorie counter</title>
+  </head>
+  <body>
+    <div class="app-container">
+      <div class="app-header">
+        <h1>Your personal calorie counter</h1>
+      </div>
+
+      <div class="search-container">
+        <div class="search">
+          <form id="searchBar">
+            <div class="product-list-container">
+              <h2>Product list</h2>
+            </div>
+
+            <!-- <p class="item">Search for your item</p> -->
+
+            <input
+              name="searchTxt"
+              type="text"
+              id="myInput"
+              placeholder="Search for product.."
+            />
+
+            <button type="submit" class="btn btn--search">Add</button>
+          </form>
+
+          <div id="totalKcalId"></div>
+        </div>
+      </div>
+
+      <section class="container">
+        <div class="searchResults">
+          <div class="resultWrapper">
+            <div class="result bold mb-2">
+              <div class="name">Name</div>
+              <div class="kcal">Kcal/ unit</div>
+              <div class="qty">Quantity</div>
+            </div>
+            <div id="resultId">
+              <div class="result-Item">
+                <div class="name-Item"></div>
+                <div class="kcal-Item"></div>
+                <div class="qty-Item"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="additem" id="additem">
+        <form id="addItem">
+          <p class="newItem">Add your own item</p>
+
+          <input
+            name="addTxt"
+            type="text"
+            id="addMyItem"
+            placeholder="Add new product.."
+          />
+
+          <input
+            name="addTxtNoCal"
+            type="number"
+            id="addCalNo"
+            placeholder="Add no of calories.."
+          />
+
+          <input
+            name="addTxtQty"
+            type="number"
+            id="addQty"
+            placeholder="Add quantity.."
+          />
+
+          <button type="click" class="btn btn--addItem">Add</button>
+        </form>
+      </div>
+
+      <!-- <div class="display-jurnal">
+        <center><h3>My food journal</h3></center>
+        <ul id="myList"></ul>
+      </div> -->
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
